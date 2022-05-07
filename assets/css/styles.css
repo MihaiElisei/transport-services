@@ -36,6 +36,7 @@ body {
 display: flex;
 justify-content: space-between;
 }
+
 #logo-wrapper > img {
     margin-left: 20px;
     margin-top: -10px;
@@ -103,8 +104,21 @@ justify-content: space-between;
 .carousel-inner{
     height: 700px;
 }
+
 .carousel-inner img{
     width: 80%;
     height: 700px;
     background-size:cover;
+}
+
+.carousel-caption > h5 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #797575;
+}
+
+.carousel-caption > p{
+    font-size: 20px;
+    font-style: italic;
+    color: #797575;
 }
