@@ -122,3 +122,39 @@ justify-content: space-between;
     font-style: italic;
     color: #797575;
 }
+
+/* main content */
+
+#main {
+    background-color: rgba(191, 191, 191, 0.3);
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    padding: 80px;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#main-content > div {
+    border: 1px solid #000;
+    padding: 30px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+#main-content > div > h3 {
+    text-align: center;
+}
+
+#main-content > div > p {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
