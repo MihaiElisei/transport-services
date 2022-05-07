@@ -169,7 +169,7 @@ footer{
     width: 100%;
     background-color: rgba(191, 191, 191, 0.3);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 
 .email > p {
@@ -194,3 +194,51 @@ footer{
 }
 
 /* our services */
+
+#services {
+    background-color: rgba(191, 191, 191, 0.3);
+}
+
+.services-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px 0 40px 0;
+    font-family: 'Nunito';
+    
+}
+
+#individuals-wrapper{
+    background-color: rgba(0,0,0,0.7);
+    color:#fff;
+    width: 80%;
+    margin:auto;
+    border-radius: 30px;
+}
+
+#individuals {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex:50%;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.individuals-title {
+    text-align: center;
+    padding:30px 0 30px 0; 
+    text-transform: capitalize;
+}
+
+#img-center{
+    background: url(../images/img4.png) no-repeat center center/ cover;
+    width: 300px;
+    height: 500px;
+    margin: 10px 0 50px 0;
+    border-radius: 20px;
+}
+
+.text-bold{
+    font-weight: bold;
+    font-size: 30px;
+}
