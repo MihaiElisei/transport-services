@@ -272,3 +272,16 @@ footer{
     margin: 10px 0 50px 0;
     border-radius: 20px;
 }
+
+/* gallery section */
+
+#photos{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
