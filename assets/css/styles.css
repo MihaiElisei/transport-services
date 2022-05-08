@@ -344,4 +344,38 @@ input{
 }
  
 
- /* For larger to medium screens size from 1200px wide and down */ 
+ /* For larger to medium screens size from 1440px wide and down */ 
+ @media screen and (max-width: 1440px){
+     #logo{
+         font-size: 200%;
+         line-height:50px;
+         margin-left: 15px;
+     }
+     #logo-wrapper > img{
+         width: 150px;
+     }
+     .email > p {
+        font-size: 25px;
+        margin: 50px auto;
+    }
+    #social-networks a {
+        padding:40px;
+        font-size: 30px;
+    }
+    #form-elements {
+        width: 100%;
+        font-size:20px; 
+    }
+    #form-content{
+        width: 50%;
+    }
+    #form-img{
+        width: 50%;
+    }
+ }
+
+ /* For larger to medium screens size from 1440px wide and down */
+
+ @media screen and (max-width: 1200px){
+     
+ }
