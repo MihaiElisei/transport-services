@@ -255,6 +255,8 @@ footer{
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    min-height: 100vh;
+    background-color: rgba(191, 191, 191, 0.3);
 }
 
 #photos > img {
@@ -345,6 +347,7 @@ input{
  
 
  /* For larger to medium screens size from 1440px wide and down */ 
+ 
  @media screen and (max-width: 1440px){
      #logo{
          font-size: 200%;
@@ -377,5 +380,49 @@ input{
  /* For larger to medium screens size from 1440px wide and down */
 
  @media screen and (max-width: 1200px){
-     
+    #logo{
+        font-size: 160%;
+        line-height:50px;
+        margin-left: 10px;
+    }
+    #logo-wrapper > img{
+        width: 80px;
+        height: 50px;
+        margin:0;
+    }
+    #menu{
+        font-size: 100%;
+        letter-spacing: 2px;
+        line-height: 10px;
+    }
+    .email > p {
+        font-size: 20px;
+        margin: 50px auto;
+    }
+    #social-networks a {
+        padding:20px;
+        font-size: 25px;
+    }
+    .services-title{
+        font-size: 170%;
+    }
+    .text-bold{
+        font-weight: normal;
+        font-size: 15px;
+    }
+    #img-right{
+        width: 350px;
+    }
+    #form-content{
+        width: 50%;
+    }
+    #form-img{
+        width: 50%;
+        border: none;
+        margin-left: 40px;
+    }
+    #form-img > img {
+        width: 100%;
+        
+    }
  }
