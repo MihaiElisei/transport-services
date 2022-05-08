@@ -285,3 +285,87 @@ footer{
 #photos > img {
     width: 100%;
 }
+
+/* contact */
+
+#formular {
+    background-color: rgba(191, 191, 191, 0.3);
+    min-height: 100vh;
+    padding-top: 100px;
+    width: 100%;
+    
+}
+
+#formular h2{
+    font-size: 50px;
+    text-align: center;
+    color: #3a3a3a;
+    font-family: 'Ubuntu';
+}
+
+#form-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#form-img{
+    width: 40%;
+    text-align: center;
+    border-right: 3px solid #3a3a3a;
+}
+
+#form-img > img {
+    height: 700px;
+    width: 500px;
+    margin:50px auto;
+    border-radius: 30px;
+}
+
+#form-content{
+    width: 60%;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+#form-elements {
+    width: 50%;
+    color:#3a3a3a;
+    font-size:20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#form-elements > textarea {
+    border: 1px solid #000;
+}
+.align {
+    text-align: center;
+    margin-left: 10px; 
+    width: 100%;  
+}
+
+input{
+    height: 30px;
+    border: 1px solid #000;
+}
+
+#submit {
+    margin:20px auto;
+    background-color: #3a3a3a;
+    border-radius: 40px;
+    width: 120px;
+    height: 40px;
+    color :#fff;
+    margin-bottom: 10px;
+}
+
+#submit:hover{
+    background-color: #fff;
+    color:#3a3a3a;
+    border: 1px solid #3a3a3a;
+}
+ 
+
