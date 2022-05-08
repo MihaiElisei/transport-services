@@ -194,9 +194,6 @@ footer{
 
 #individuals {
     display:flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex:50%;
     justify-content: space-around;
     width: 100%;
 }
@@ -217,8 +214,9 @@ footer{
 }
 
 .text-bold{
+    margin-top:50px ;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -244,7 +242,7 @@ footer{
 
 #img-right {
     background: url(../images/img5.jpg) no-repeat center center/ cover;
-    width: 700px;
+    width: 500px;
     height: 500px;
     margin: 10px 0 50px 0;
     border-radius: 20px;
