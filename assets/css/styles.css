@@ -377,7 +377,7 @@ input{
     }
  }
 
- /* For larger to medium screens size from 1440px wide and down */
+ /* For larger to medium screens size from 1200px wide and down */
 
  @media screen and (max-width: 1200px){
     #logo{
@@ -426,3 +426,44 @@ input{
         
     }
  }
+
+  /* For larger to medium screens size from 950px wide and down */
+
+@media screen and (max-width: 950px){
+    #header-wrapper{
+        display: block;
+        padding: 10px;
+    }
+    #logo-wrapper > img {
+        float:right;
+        width: 150px;
+    }
+    #logo{
+        font-size: 200%;
+    }
+    #menu {
+        margin-right: 20%;
+    }
+    #title {
+        font-size: 200%;
+    }
+    #main-content {
+        display: block;
+    }
+    #main-content > div {
+        width: 100%;
+        margin: 5px auto;
+    }
+    .email > p {
+        font-size: 15px;
+        margin: 50px auto;
+    }
+    #social-networks a {
+        padding:10px;
+        font-size: 15px;
+    }
+    #photos {
+        column-count: 2;
+    }
+}
+  
