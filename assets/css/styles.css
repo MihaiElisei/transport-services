@@ -24,7 +24,7 @@ body {
     url(../images/truck-2677373.jpg);
     background-size: cover;
     position: relative;
-    clip-path: top;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);    
 }
 
 #logo {
@@ -42,18 +42,18 @@ body {
 #header-wrapper > img {
     position: absolute;
     left:30px;
-   top:30px;
+    top:30px;
 }
 
 #menu{
     font-size: 120%;
     letter-spacing: 3px;
     float: right;
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
 
-#menu {
-    line-height: 40px;
-}
 
 #menu li{
     float:right;
@@ -67,15 +67,15 @@ body {
     
 }
 
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom:1px solid #3a3a3a; 
+#menu a:hover, .active {
+    border-bottom: 1px solid #34656D;
 }
 
 /* carousel */
+
+#carousel{
+    margin-top: 30px;
+}
 
 .carousel-inner{
     height: 600px;
@@ -88,9 +88,6 @@ body {
 
 /* main content */
 
-#main {
-    background-color: rgba(191, 191, 191, 0.3);
-}
 
 #main-content{
     display: flex;
@@ -103,6 +100,7 @@ body {
     font-size: 250%;
     font-weight: bold;
     text-decoration: underline;
+    color: #34656D;
 }
 
 #main-content > div {
@@ -271,7 +269,7 @@ footer{
 /* contact */
 
 #formular {
-    background-color: rgba(191, 191, 191, 0.3);
+    background-color: rgba(246, 255, 222, 0.859);
     min-height: 100vh;
     padding-top: 100px;
     width: 100%;
