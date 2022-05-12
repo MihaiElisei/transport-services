@@ -39,11 +39,11 @@ body {
 }
 
 
-/* #logo-wrapper > img {
-    margin-left: 20px;
-    margin-top: -10px;
-    height: 80px;
-} */
+#header-wrapper > img {
+    position: absolute;
+    left:30px;
+   top:30px;
+}
 
 #menu{
     font-size: 120%;
