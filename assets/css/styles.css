@@ -28,18 +28,78 @@ body {
     background-position:bottom;
 }
 
-#logo {
-    text-transform: uppercase;
-    font-size: 350%;
-    font-weight: 400;
-    letter-spacing:5px;
-    color: #f6eee4;
+#logo-wrapper{
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
 }
 
+#logo{
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: 400;
+    letter-spacing:5px;
+    color: #f6eee4;
+    animation: moveInLeft 1s ease-out;
+}
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px); }
+    80% {
+      transform: translateX(10px); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+
+#logo-wrapper a{
+    text-decoration: none;
+    
+}
+
+.logo-title{
+    text-align: center;
+    font-size: 30px;
+    color: #f6eee4;
+    animation: moveInRight 1s ease-out;
+}
+
+ 
+@keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px); }
+    80% {
+      transform: translateX(-10px); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+span{
+    padding: 18px;
+    font-size: 18px;
+    color: #f6eee4;
+}
+
+ 
+
+.logo-left{
+    animation:  moveInText 2s ease-in 0.1s;
+}
+.logo-center{
+    animation:  moveInText 3s ease-in 0.1s;
+}
+.logo-right{
+    animation:  moveInText 4s ease-in 0.1s;
+}
+@keyframes moveInText {
+    0% {
+      opacity: 0;
+      transform: translateY(30px); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
 
 #header-wrapper > img {
     position: absolute;
