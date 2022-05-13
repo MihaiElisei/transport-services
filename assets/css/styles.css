@@ -11,7 +11,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     min-height: 100vh;
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 /* styling logo and menu  */
@@ -19,19 +19,21 @@ body {
 #header-wrapper{
     height: 85vh;
     background-image:linear-gradient(to right bottom,
-    rgba(255, 251, 223, 0.9),
-    rgba(198, 255, 193, 0.9)), 
+    rgba(255, 92, 88, .7),
+    rgba(254, 143, 143, .8)), 
     url(../images/truck-2677373.jpg);
     background-size: cover;
     position: relative;
-    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);    
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);    
+    background-position:bottom;
 }
 
 #logo {
     text-transform: uppercase;
-    font-size: 300%;
+    font-size: 350%;
+    font-weight: 400;
     letter-spacing:5px;
-    color: #34656D;
+    color: #f6eee4;
     position: absolute;
     top:50%;
     left:50%;
@@ -58,17 +60,18 @@ body {
 #menu li{
     float:right;
     list-style-type: none;
-    padding: 18px;
+    padding: 25px;
 }
 
 #menu a {
     text-decoration: none;
-    color: #34656D;
+    color: #f6eee4;
     
 }
 
 #menu a:hover, .active {
-    border-bottom: 1px solid #34656D;
+    border-bottom: 1px solid #f6eee4;
+    font-size: 125%;
 }
 
 /* carousel */
@@ -78,12 +81,13 @@ body {
 }
 
 .carousel-inner{
-    height: 600px;
+    height: 300px;
 }
 
 .carousel-inner img{
-    height: 600px;
-    background-size:cover;
+    height: 300px;
+    /* background-size:cover; */
+    object-fit: contain;
 }
 
 /* main content */
