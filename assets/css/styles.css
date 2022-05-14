@@ -436,202 +436,213 @@ iframe{
     padding-top: 10rem;  
 }
 
- /* For larger to medium screens size from 1440px wide and down */ 
-/*  
- @media screen and (max-width: 1440px){
-     #logo{
-         font-size: 200%;
-         line-height:50px;
-         margin-left: 15px;
-     }
-     #logo-wrapper > img{
-         width: 150px;
-     }
-     .email > p {
-        font-size: 25px;
-        margin: 50px auto;
+ /* For larger to medium screens size from 1200px wide and down */ 
+ @media screen and (max-width: 1200px){
+    .individuals-title, .companies-title{
+        font-size: 3rem;
     }
-    #social-networks a {
-        padding:40px;
-        font-size: 30px;
+    .text-bold{
+        font-size: 1.5rem;
+    }
+    #individuals-wrapper {
+        clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+    #companies-wrapper {
+        clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
+        padding:5rem 2rem;
     }
     #form-elements {
         width: 100%;
-        font-size:20px; 
     }
-    #form-content{
-        width: 50%;
-    }
-    #form-img{
-        width: 50%;
-    }
- } */
-
- /* For larger to medium screens size from 1200px wide and down */
-
- /* @media screen and (max-width: 1200px){
-    #logo{
-        font-size: 160%;
-        line-height:50px;
-        margin-left: 10px;
-    }
-    #logo-wrapper > img{
-        width: 80px;
-        height: 50px;
-        margin:0;
-    }
-    #menu{
-        font-size: 100%;
-        letter-spacing: 2px;
-        line-height: 10px;
-    }
-    .email > p {
-        font-size: 20px;
-        margin: 50px auto;
-    }
-    #social-networks a {
-        padding:20px;
-        font-size: 25px;
-    }
-    .services-title{
-        font-size: 170%;
-    }
-    .text-bold{
-        font-weight: normal;
-        font-size: 15px;
-    }
-    #img-right{
-        width: 350px;
-    }
-    #form-content{
-        width: 50%;
-    }
-    #form-img{
-        width: 50%;
-        border: none;
-        margin-left: 40px;
-    }
-    #form-img > img {
-        width: 100%;
-        
-    }
- } */
-
-  /* For larger to medium screens size from 950px wide and down */
-
-/* @media screen and (max-width: 950px){
-    #header-wrapper{
-        display: block;
-        padding: 10px;
-    }
-    #logo-wrapper > img {
-        float:right;
-        width: 150px;
-    }
-    #logo{
-        font-size: 200%;
-    }
-    #menu {
-        margin-right: 20%;
-    }
-    #title {
-        font-size: 200%;
-    }
-    #main-content {
-        display: block;
-    }
-    #main-content > div {
-        width: 100%;
-        margin: 5px auto;
-    }
-    .email > p {
-        font-size: 15px;
-        margin: 50px auto;
-    }
-    #social-networks a {
-        padding:10px;
-        font-size: 15px;
-    }
-    #photos {
-        column-count: 2;
-    }
-} */
-
- /* For larger to medium screens size from 750px wide and down */
-
- /* @media screen and (max-width:750px){
-     #logo {
-         font-size: 100%;
-     }
-     #logo-wrapper > img {
-        float:right;
-        width: 80px;
-    }
-    #menu li {
-        padding: 7px;
-        font-size: 10px;
-        letter-spacing: 1px;
-    }
-    #title{
-        font-size: 100%;
-    }
-    #img-wrapper{
-        display: block;
-    }
-    #left, #center, #right{
-        width: 100%;
-    }
-    footer{
-        flex-direction: column;
-        height: 100px;
-    }
-    .email > p {
-        font-size: 10px;
-        margin:10px 25%;
-    }
-    #social-networks{
-        width: 100%;
-       height: auto;
-    }
-    #social-networks a {
-        padding:0;
-        font-size: 10px;
-        
-    }
-    #social-networks ul{
-        margin:10px 25%;
-        padding: 5px;
-    }
-    #social-networks li{
-        
-        padding: 0;
-        margin: 17px;
-    }
-    .services-title{
-        font-size: 100%;
-    }
-    .individuals-title, .companies-title{
-        font-size: 100%;
-    }
-    #img-center, #img-right{
-        display: none;
-    }
-    .text-bold{
-        margin-top: 10px;
-        font-size: 10px;
-    }
-    #formular > h2 {
-        font-size: 120%;
-    }
-    #form-wrapper{
-        margin:0 auto;
-    }
-    #form-img{
-        display: none;
-    }
-    #form-content{
-        width: 100%;
-        margin:0 auto;
+    #formular{
+        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
     }
  }
-   */
+
+/* for medium screen size from 950 px wide and down */
+
+@media screen and (max-width: 950px){
+    #header-wrapper > img {
+        height: 4rem;
+        width: 8rem;
+        top:3.5rem;
+        left:3.5rem;
+    }
+    #logo{
+        font-size: 3.5rem;
+    }
+    .logo-title {
+        font-size: 2.5rem;
+    }
+    .btn:link, .btn:visited{
+        font-size: 1.5rem;
+        padding: .8rem 2rem;
+    }
+    #social-networks li {
+        font-size: 3.5rem;
+        padding: 1rem 8rem;
+    }
+    #photos{
+        padding:18rem 0;
+    }
+    #formular h2{
+        font-size: 4rem;
+    }
+    #form-img{
+        border:none;
+    }
+    #form-img img{
+        height: 80%;
+    }
+    span{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    
+}
+
+/* for medium screen size from 800 px wide and down */
+
+@media screen and (max-width: 800px){
+    span{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    .text-bold{
+        margin: .8rem 1.6rem;
+        font-size: 1.3rem;
+    }
+    .individuals-title, .companies-title{
+        font-size: 2rem;
+    }
+    #individuals-wrapper, #companies-wrapper{
+        padding: 1rem;
+    }
+    .services-title {
+        font-size: 1.8rem;
+    }
+    #header-wrapper{
+        clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+    }
+    #main{
+        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+    }
+    #services{
+        clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    #social-networks li {
+        font-size: 3rem;
+        padding: 1rem 6rem;
+    }
+    .email > p{
+        font-size: 2.5rem;
+    }
+    #main-content{
+        display: block;
+        width: 100%;
+    }
+    #main-content > div{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    #individuals-wrapper {
+        clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    }
+    #companies-wrapper {
+        clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+        padding:1rem .2rem;
+    }
+    #photos{
+        column-count: 2;
+    }
+    .photos-bg{
+        clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+    }
+    #formular h2{
+        font-size: 3rem;
+    }
+    #title {
+        font-size: 2.5rem;
+    }
+}
+
+/* for medium screen size from 700 px wide and down */
+@media screen and (max-width: 700px){
+    #header-wrapper img{
+        left:50%;
+        top:10%;
+        transform: translate(-50%, -50%);
+        width: 18rem;
+        height: 8rem;
+    }
+    #menu{
+        top:15%;
+        font-size: 1.2rem;
+    }
+    #menu a:hover, .active {
+        border-bottom: 1px solid #614124;
+        font-size: 1.2rem;
+    }
+    #logo{
+        font-size: 2rem;
+    }
+    .logo-title{
+        font-size: 1.4rem;
+    }
+    span{
+        padding: .1rem;
+        font-size: 1rem;
+    }
+    .btn:link, .btn:visited{
+        font-size: 1rem;
+        padding: .4rem 1rem;
+    }
+    #header-wrapper{
+        clip-path: polygon(0 0, 100% 0%, 100% 98%, 0% 100%);
+    }
+    #main{
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0% 100%);
+    }
+    #services{
+        clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    #individuals-wrapper {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    #companies-wrapper {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding:1rem .2rem;
+    }
+    #title {
+        font-size: 2rem;
+        padding: 5rem 0;
+    }
+    .services-title {
+        font-size: 1.4rem;
+        padding: 5rem 0;
+    }
+    .carousel-inner {
+        height: 30rem;
+    }
+    
+    .carousel-inner img {
+        height: 30rem;
+    }
+    .email > p{
+        font-size: 1.5rem;
+    }
+    #social-networks li {
+        font-size: 2rem;
+        padding: 1rem 3rem;
+    }
+    #form-img{
+        display: none;
+    }
+    #form-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #formular{
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0% 100%);
+    }
+}
