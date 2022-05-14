@@ -264,17 +264,17 @@ span {
     padding: 5rem;
 }
 
-#individuals {
+#individuals, #companies {
     display:flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.individuals-title {
+.individuals-title, .companies-title {
     text-align: center;
-    padding:30px 0 30px 0; 
+    padding:3rem 0; 
     text-transform: capitalize;
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .text-bold {
@@ -282,18 +282,6 @@ span {
     font-size: 2rem;
     margin:0 4rem;
     float: left;
-}
-
-#companies {
-    display: flex;
-    justify-content: space-around;
-}
-
-.companies-title {
-    text-align: center;
-    padding:30px 0 30px 0; 
-    text-transform: capitalize;
-    font-size: 40px;
 }
 
 
@@ -313,13 +301,13 @@ footer {
     padding: 4rem 0;
 }
 
-
 #social-networks li {
     list-style-type: none;
     font-size: 4rem;
     display: inline-block;
     padding: 1rem 10rem;
 }
+
 #social-networks ul {
     text-align: center;
 }
@@ -329,6 +317,10 @@ footer {
     color: #fff;
 }
 
+#social-networks a:hover{
+    font-size: 5rem;
+}
+
 /* gallery section */
 
 #photos{
@@ -336,8 +328,14 @@ footer {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    padding: 18rem 5rem ;
+}
+
+.photos-bg{
     min-height: 100vh;
-    background-color: rgba(191, 191, 191, 0.3);
+    background-color: #E8C07D;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+    margin-bottom: 5rem;
 }
 
 #photos > img {
