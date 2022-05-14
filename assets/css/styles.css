@@ -317,8 +317,8 @@ footer {
     color: #fff;
 }
 
-#social-networks a:hover{
-    font-size: 5rem;
+#social-networks li:hover{
+    transform: translate(0, -1rem);
 }
 
 /* gallery section */
