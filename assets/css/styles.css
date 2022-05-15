@@ -123,6 +123,7 @@ span {
     position: absolute;
     top: 3rem;
     right: 3rem;
+    background-color: rgba(255, 255, 255, .4);
 }
 
 
@@ -344,6 +345,10 @@ footer {
     width: 100%;
 }
 
+#photos > img:hover{
+    width: 110%;
+}
+
 /* contact */
 
 #formular {
@@ -435,7 +440,17 @@ iframe{
     margin-top: 5rem; 
     padding-top: 10rem;  
 }
-
+ /* For larger to medium screens size from 1440px wide and down */ 
+ @media screen and (max-width: 1440px){
+    #individuals-wrapper {
+        clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+    #companies-wrapper {
+        clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
+        padding:5rem 2rem;
+    }
+ }
+ 
  /* For larger to medium screens size from 1200px wide and down */ 
  @media screen and (max-width: 1200px){
     .individuals-title, .companies-title{
@@ -443,13 +458,6 @@ iframe{
     }
     .text-bold{
         font-size: 1.5rem;
-    }
-    #individuals-wrapper {
-        clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
-    }
-    #companies-wrapper {
-        clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
-        padding:5rem 2rem;
     }
     #form-elements {
         width: 100%;
@@ -478,6 +486,12 @@ iframe{
         font-size: 1.5rem;
         padding: .8rem 2rem;
     }
+    .individuals-title, .companies-title{
+        font-size: 2.5rem;
+    }
+    .text-bold{
+        font-size: 1.12rem;
+    }
     #social-networks li {
         font-size: 3.5rem;
         padding: 1rem 8rem;
@@ -498,7 +512,11 @@ iframe{
         padding: 1rem;
         font-size: 1.5rem;
     }
-    
+    #social-networks ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 /* for medium screen size from 800 px wide and down */
@@ -532,7 +550,7 @@ iframe{
     }
     #social-networks li {
         font-size: 3rem;
-        padding: 1rem 6rem;
+        padding: 0;
     }
     .email > p{
         font-size: 2.5rem;
@@ -581,17 +599,26 @@ iframe{
         transform: translate(-50%, -50%);
         width: 12rem;
         height: 8rem;
+        
     }
     #menu{
-        top:15%;
-        font-size: 1.1rem;
+        width: 100%;
+        right:0;
+        top:20%;
     }
     #menu ul{
         padding: 0;
-    }
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        font-size: 1.2rem;
+    }   
     #menu a:hover, .active {
         border-bottom: 1px solid #614124;
         font-size: 1.2rem;
+    }
+    #logo-wrapper{
+        top:55%;
     }
     #logo{
         font-size: 2rem;
@@ -643,7 +670,6 @@ iframe{
     }
     #social-networks li {
         font-size: 2rem;
-        padding: 1rem 2rem;
     }
     #form-img{
         display: none;
