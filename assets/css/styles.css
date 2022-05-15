@@ -568,16 +568,26 @@ iframe{
 
 /* for medium screen size from 700 px wide and down */
 @media screen and (max-width: 700px){
+    #header-wrapper{
+        background-image:linear-gradient(to top,
+        rgba(159, 192, 136, .8),
+        rgba(232, 192, 125, .8)), 
+        url(../images/tir-img1.jpg);
+        background-size: cover;
+    }
     #header-wrapper img{
         left:50%;
         top:10%;
         transform: translate(-50%, -50%);
-        width: 18rem;
+        width: 12rem;
         height: 8rem;
     }
     #menu{
         top:15%;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+    #menu ul{
+        padding: 0;
     }
     #menu a:hover, .active {
         border-bottom: 1px solid #614124;
@@ -633,7 +643,7 @@ iframe{
     }
     #social-networks li {
         font-size: 2rem;
-        padding: 1rem 3rem;
+        padding: 1rem 2rem;
     }
     #form-img{
         display: none;
