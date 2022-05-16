@@ -42,3 +42,12 @@ The content of this website presents the services offered by a product delivery 
 
 # 1.3 Color Scheme
 
+The choice of website right foreground and background colour is essential that decides the site visitors wheather to emote the site or not. I used [Color Hunt](https://colorhunt.co/) to select the background and foreground color. Colors that i used are:
+
+ * #614124 - for text and footer background;
+ * rgba(159, 192, 136, .8) and rgba(232, 192, 125, .8) : a linear gradient with opacity of 0.8 over the hero image;
+ * #E8C07D - for main content background;
+
+# 1.4 Images and Logo
+
+
