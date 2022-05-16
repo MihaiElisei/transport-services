@@ -87,6 +87,29 @@ This website was created for academic purposes, all photos were searched and dow
 The screenshots of Home page are below:
 
 ![home page](assets/images/README-images/home-page1.png)
-![homepage](assets/images/README-images/home-page2.png)
-![homepage](assets/images/README-images/home-page3.png)
-![homepage](assets/images/README-images/home-page4.png)
+![home page](assets/images/README-images/home-page2.png)
+![home page](assets/images/README-images/home-page3.png)
+![home page](assets/images/README-images/home-page4.png)
+
+## Gallery page
+* For gallery section i used clip path to create a nice design to the page;
+* For gallery i used the code from Love Running project;
+* every image in the gallery have a hover effect of increasing the size with 10%.
+
+The screenshot of Gallery page is below:
+![gallery page](assets/images/README-images/gallery-page.png)
+
+## Contact page
+* Include contact form that provides the user the ability to message site owner, provide feedback and suggestions.
+* For contact section i used clip path to create a nice design to the page;
+* Left image have a hover effect that rotates the img with 180deg (this will create a good experience for users while navigate on the website);
+* Hover effect for submit button;
+* The form use the method="POST" action="https://formdump.codeinstitute.net/";
+* I use the placeholder attribute for textarea;
+* I added iframe with Dublin City map (as an general address).
+
+The screenshot of Gallery page is below:
+![contact page](assets/images/README-images/contact-page.png)
+![contact page](assets/images/README-images/contact-page1.png)
+
+# 3. Technologies Used
