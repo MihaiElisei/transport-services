@@ -54,7 +54,7 @@
         <!-- formular content -->
 
         <div id="form-content">
-          <form action="post" id="usrform">
+          <form method="POST" id="usrform" action="https://formdump.codeinstitute.net/">
               <fieldset id="form-elements">
                   <legend>Your Detailes:</legend>
                   <label for="fname" class="align">First Name:</label>
@@ -64,7 +64,7 @@
                   <label for="email" class="align">Email Address:</label>
                   <input type="email" name="email" id="email" required><br>
                   <label for="phone" class="align">Phone number:</label>
-                  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+                  <input type="tel" id="phone" name="phone" required><br>
                   <textarea rows="7" cols="50" name="comment" form="usrform" placeholder="Add additional details"></textarea>
                   <input type="submit" name="submit" id="submit" value="Add Details">
               </fieldset>
