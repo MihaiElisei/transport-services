@@ -113,3 +113,23 @@ The screenshot of Gallery page is below:
 ![contact page](assets/images/README-images/contact-page1.png)
 
 # 3. Technologies Used
+
+* HTML5 was used for structuring and presenting content of the website;
+* CSS3 was used to provide the style to the content written in a HTML;
+* Balsamiq was used to create wireframes of the website;
+* Google Fonts was used to import font-family "Nunito" and "Ubuntu" into style,css file and which was used throughout the pages of the website;
+* Font Awsome was used to improt icons to the sites;
+* Chrome was used to debug and test the source code using HTML5 as well as to test site responsiveness;
+* Github was used to create the repository and to store the cproject's code after pushed from Git;
+* Git was used as the Code Editor for the site;
+* Color Hunt was used to select the background and font color in the website;
+* W3C Markup and Jigsaw validation tools were used to validate the HTML code and CSS style used in the proejct;
+* Ami was used to develop a Mockup screenshot generator.
+
+# 4. Testing
+
+## 4.1 Testing tools:
+* Google Developer Tools for debug and test css code;
+* [I Am Responsive](https://ui.dev/amiresponsive) site to check if website is responsive on all devices screen sizes;
+* W3C Validator Tools 
+
