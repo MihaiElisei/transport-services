@@ -50,4 +50,6 @@ The choice of website right foreground and background colour is essential that d
 
 # 1.4 Images and Logo
 
+This website was created for academic purposes, all photos were searched and downloaded from the google platform and the logo was created and downloaded from [Looka](https://looka.com).
 
+# 1.5 Site Skeleton
