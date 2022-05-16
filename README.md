@@ -66,3 +66,16 @@ This website was created for academic purposes, all photos were searched and dow
 
 ## Contact Page:
 ![Contact page whireframe image](assets/images/contact-page.png)
+
+# 2.Features
+
+## All 3 pages:
+
+* Navigation bar is placed at the top right corner of the page, and cosnidered a hover effect that changes the font size of menu items and add bottom border. The hover effect is placed to improve the user expereince. Background color for the navigation menu is white with a 0.4 opacity;
+* Logo is placed on the top left corner;
+* Header background is an image with two color over it (linear-gradient) with 0.8 opacity. This makes the background look modern and attractive to users.
+* For page title and small presentation i have created animations to make text translate and change it`s opacity;
+* Social media links (Facebook, Instagram, Twitter and Youtube) are placed at the bottom of the each page in the footer. All the links will be opened in a new tab.
+
+## Home Page
+
