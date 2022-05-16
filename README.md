@@ -53,3 +53,16 @@ The choice of website right foreground and background colour is essential that d
 This website was created for academic purposes, all photos were searched and downloaded from the google platform and the logo was created and downloaded from [Looka](https://looka.com).
 
 # 1.5 Site Skeleton
+[Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser and a mobile browser format:
+
+## Header:
+![Header Whireframe image](assets/images/header.png)
+
+## Home Page:
+![Home page whireframe image](assets/images/home-page.png)
+
+## Gallery Page:
+![Gallery page whireframe image](assets/images/gallery-page.png)
+
+## Contact Page:
+![Contact page whireframe image](assets/images/contact-page.png)
