@@ -31,3 +31,14 @@ The following users types can be benifitted from the website:
 The main purpose of this website is to present the services offered by the company in order to obtain new contracts and collaborations with potential clients.
 
 # 1.2 User Expectations 
+
+
+The content of this website presents the services offered by a product delivery company. This website is ideal for people who are planning to start a small business and want to present their services online. Folloiwng user's expections ware considered while designing the site:
+
+* The site structure is designed considering the expectation of users to be simple and easy to use;
+* The user interface is easy to navigate;
+* Responsive design for all screen/device sizes like mobile, tablet and desktop;
+* A application page is provided for those users who will be contacted if they are interested in company services.
+
+# 1.3 Color Scheme
+
