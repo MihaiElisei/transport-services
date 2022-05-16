@@ -79,3 +79,14 @@ This website was created for academic purposes, all photos were searched and dow
 
 ## Home Page
 
+* In addition to the other pages in the header part of the home page under the title and the presentation text, we have created a button that leads to the services section. When hover the button this will translate a few px up and create an box shadow;
+* I used for the whole website but especially for the home page the clip path property to create nice polygons and give the website a nice design;
+* In policies section every division have a hover effect that translate the division and create a box shadow;
+* In the bottom of the page i used bootstrap 5.2 framework to import and create a carousel.
+
+The screenshots of Home page are below:
+
+![home page](assets/images/README-images/home-page1.png)
+![homepage](assets/images/README-images/home-page2.png)
+![homepage](assets/images/README-images/home-page3.png)
+![homepage](assets/images/README-images/home-page4.png)
