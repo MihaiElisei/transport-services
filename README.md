@@ -137,3 +137,11 @@ The screenshot of Gallery page is below:
 ![w3C validator pic](assets/images/README-images/W3C-3.png)
 * W3C CSS Validation was used to check for any error within my CSS stylesheet:
 ![Css validator pic](assets/images/README-images/CSS-validator.png)
+
+## 4.2 Manual Testing
+
+I have tested my site on multiple devices. These include:
+* Galaxy Fold (280 x 653);
+* Iphone 6/7/8 Plus (414 x 736);
+* Ipad (768 x 1024);
+* Nest Hub (1024 x 600);
