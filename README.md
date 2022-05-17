@@ -1,6 +1,6 @@
 # Delivery and Transport Services 
 
-Welcome to [Our website!](https://mihaielisei.github.io/transport-services/)
+Welcome to [Safe-Transport website!](https://mihaielisei.github.io/transport-services/)
 
 # Introduction
 
@@ -9,7 +9,7 @@ Our services are available throughout entire country of Ireland!
 
 The aim of this project is to create a website that presents the services of this company in an attractive and simple way for users to navigate on it.
 
-Live version of Our website: [Safe Transport](https://mihaielisei.github.io/transport-services/)
+Live version of the website: [Safe Transport](https://mihaielisei.github.io/transport-services/)
 
 
 ![responsivnes image](assets/images/responsive.png)
@@ -131,5 +131,9 @@ The screenshot of Gallery page is below:
 ## 4.1 Testing tools:
 * Google Developer Tools for debug and test css code;
 * [I Am Responsive](https://ui.dev/amiresponsive) site to check if website is responsive on all devices screen sizes;
-* W3C Validator Tools 
-
+* W3C Validator Tools was used to check for any errors within my HTML pages:
+![w3C validator pic](assets/images/README-images/W3C-1.png)
+![w3C validator pic](assets/images/README-images/W3C-2.png)
+![w3C validator pic](assets/images/README-images/W3C-3.png)
+* W3C CSS Validation was used to check for any error within my CSS stylesheet:
+![Css validator pic](assets/images/README-images/CSS-validator.png)
