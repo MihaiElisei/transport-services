@@ -159,3 +159,26 @@ I have tested my site on multiple devices. These include:
 ![Lighthouse report](assets/images/README-images/Lighthouse4.png)
 ![Lighthouse report](assets/images/README-images/Lighthouse5.png)
 ![Lighthouse report](assets/images/README-images/Lighthouse6.png)
+
+
+# 5. Bugs
+
+## Solved Bugs
+
+* When i checked the accessibility in the Lighthouse reports discovered i forget to add title to iframe (google map). I solved it by adding title "Dublin map";
+* The action atribute frome the form was misspelled and when i clicked submit nothing happend, fixed the attribute all working fine;
+* When the screen size reached 360px width footer was no longer responsive, change the display property footer is responsive to all screen sizes; 
+* Images from the carousel ware streched, changed the css property to "object-fit: contain;" problem solved.
+
+
+# 6. Deployment
+ The site was deployed to GitHub pages using the following steps: 
+ * Sign up to GutHub;
+ * Create a new repository on GitHub;
+ * Click on settings on the navigation bar under the repository title;
+ * Select pages on the left menu bar;
+ * Click on the master branch and save;
+ * This will now generate a link with your website live;
+
+ # 7. Acknowledgement
+
