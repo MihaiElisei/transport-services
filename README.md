@@ -182,3 +182,8 @@ I have tested my site on multiple devices. These include:
 
  # 7. Acknowledgement
 
+* The header was inspired by Jonas Schmedtmann from Advanced CSS and Sass: Flexbox, Grid, Animations and More! course from Udemy!;
+* Icnons, footer and gallery section was inspired from Love Running project;
+* This website was created for academic purposes, all photos were searched and downloaded from the google platform;
+* For README.md file, reference of https://github.com/dhakal79/Portfolio-project-MS1 was considered; 
+* Thanks to my mentor Marcel Mulders for his support and feedback.
