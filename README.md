@@ -145,3 +145,17 @@ I have tested my site on multiple devices. These include:
 * Iphone 6/7/8 Plus (414 x 736);
 * Ipad (768 x 1024);
 * Nest Hub (1024 x 600);
+
+## 4.3 Lighthouse Reports:
+
+* For Desktop:
+
+![Lighthouse report](assets/images/README-images/Lighthouse1.png)
+![Lighthouse report](assets/images/README-images/Lighthouse2.png)
+![Lighthouse report](assets/images/README-images/Lighthouse3.png)
+
+* For Mobiles:
+
+![Lighthouse report](assets/images/README-images/Lighthouse4.png)
+![Lighthouse report](assets/images/README-images/Lighthouse5.png)
+![Lighthouse report](assets/images/README-images/Lighthouse6.png)
