@@ -146,6 +146,58 @@ I have tested my site on multiple devices. These include:
 * Ipad (768 x 1024);
 * Nest Hub (1024 x 600);
 
+## Header 
+
+| TEST | OUTCOME | PASS / FAIL |
+|:---:|:---:|:---:|
+| Home Page | On click to "Home", the browser redirects me to the Home page. The hoever effect (bottom border and font size increase) appears when mouse is on "Home". | PASS |
+| Gallery Page | On click to "Gallery", the browser redirects me to the Gallery page. The hoever effect (bottom border and font size increase) appears when mouse is on "Gallery". | PASS |
+| Contact Page | On click to "Contact", the browser redirects me to the Gallery page. The hoever effect (bottom border and font size increase) appears when mouse is on "Contact". | PASS |
+| Responsive | All pages and elements are responsive (mobile and desktop) using differnt breakpoints. | PASS |
+| Text | Checked if all fonts and colors used are consistent or not | PASS |
+| Animations | All animations effects works on all pages | PASS |
+| Header Button | When hover button chages position and creates box shadow, when clicked it goes to Services section | PASS |
+
+## Footer
+
+| TEST | OUTCOME | PASS / FAIL |
+|:---:|:---:|:---:|
+|Facebook| On clicking Facebook icon, a new tab opens and redirects to the Facebook website.|PASS|
+|Twitter| On clicking Twitter icon, a new tab opens and redirects to the Twitter website.|PASS|
+|Youtube| On clicking youtube icon, a new tab opens and redirects to the youtube website.|PASS|
+|Instagram|	On clicking instagram icon, a new tab opens and redirects to the instagram website.|PASS|
+| Hover | When hover all icons change font size.|PASS|
+
+## Home Page
+
+| TEST | OUTCOME | PASS / FAIL |
+|:---:|:---:|:---:|
+|Media| All images on the pages load. Carousel images change every 5sec.|PASS|
+|Responsive|Responsiveness of the page in different screen sizes (mobile and desktop) using differnt breakpoints were checked.|PASS|
+|Accessibility|Checked the accessibility of the page using lighthouse.|PASS|
+
+## Gallery Page
+
+| TEST | OUTCOME | PASS / FAIL |
+|:---:|:---:|:---:|
+|Media| All images on the page load. All images were checked if it blurred in differnt screen sizes.|PASS|
+|Hover|When hover all images changes width.|PASS|
+|Responsive|Responsiveness of the page in different screen sizes (mobile and desktop) using differnt breakpoints were checked.|PASS|
+|Accessibility|Checked the accessibility of the page using lighthouse.|PASS|
+
+## Contact Page
+
+| TEST | OUTCOME | PASS / FAIL |
+|:---:|:---:|:---:|
+|Media| Image on the page load. When hover image rotate 180deg.|PASS|
+|Submit| Checked if submit button works. When hover style change.|PASS|
+|Placeholder|Checked if placeholder on the textarea works.|PASS|
+|Google map| Checked of google map is displayed.|PASS|
+|Responsive|Responsiveness of the page in different screen sizes (mobile and desktop) using differnt breakpoints were checked.|PASS|
+|Accessibility|Checked the accessibility of the page using lighthouse.|PASS|
+
+
+
 ## 4.3 Lighthouse Reports:
 
 * For Desktop:
