@@ -7,7 +7,7 @@ Welcome to [Safe-Transport website!](https://mihaielisei.github.io/transport-ser
 Delivery and Transport Services is a company that offers delivery and transportation services for both individuals and other companies. These services consist of transporting various types of goods from small packages such as letters to large packages such as furniture or appliances.
 Our services are available throughout entire country of Ireland!
 
-The aim of this project is to create a website that presents the services of this company in an attractive and simple way for users to navigate on it.
+The aim of this project is to create a website that presents the services of a company in an attractive and simple way for users to navigate on it.
 
 Live version of the website: [Safe Transport](https://mihaielisei.github.io/transport-services/)
 
@@ -82,7 +82,7 @@ This website was created for academic purposes, all photos were searched and dow
 * In addition to the other pages in the header part of the home page under the title and the presentation text, we have created a button that leads to the services section. When hover the button this will translate a few px up and create an box shadow;
 * I used for the whole website but especially for the home page the clip path property to create nice polygons and give the website a nice design;
 * In policies section every division have a hover effect that translate the division and create a box shadow;
-* In the bottom of the page i used bootstrap 5.2 framework to import and create a carousel.
+* In the bottom of the page I used bootstrap 5.2 framework to import and create a carousel.
 
 The screenshots of Home page are below:
 
@@ -92,16 +92,16 @@ The screenshots of Home page are below:
 ![home page](assets/images/README-images/home-page4.png)
 
 ## Gallery page
-* For gallery section i used clip path to create a nice design to the page;
-* For gallery i used the code from Love Running project;
-* every image in the gallery have a hover effect of increasing the size with 10%.
+* For gallery section I used clip path to create a nice design to the page;
+* For gallery I used the code from Love Running project;
+* Every image in the gallery have a hover effect of increasing the size with 10%.
 
 The screenshot of Gallery page is below:
 ![gallery page](assets/images/README-images/gallery-page.png)
 
 ## Contact page
 * Include contact form that provides the user the ability to message site owner, provide feedback and suggestions.
-* For contact section i used clip path to create a nice design to the page;
+* For contact section I used clip path to create a nice design to the page;
 * Left image have a hover effect that rotates the img with 180deg (this will create a good experience for users while navigate on the website);
 * Hover effect for submit button;
 * The form use the method="POST" action="https://formdump.codeinstitute.net/";
@@ -217,8 +217,8 @@ I have tested my site on multiple devices. These include:
 
 ## Solved Bugs
 
-* When i checked the accessibility in the Lighthouse reports discovered i forget to add title to iframe (google map). I solved it by adding title "Dublin map";
-* The action atribute frome the form was misspelled and when i clicked submit nothing happend, fixed the attribute all working fine;
+* When I checked the accessibility in the Lighthouse reports discovered I forget to add title to iframe (google map). I solved it by adding title "Dublin map";
+* The action atribute frome the form was misspelled and when I clicked submit nothing happend, fixed the attribute all working fine;
 * When the screen size reached 360px width footer was no longer responsive, change the display property footer is responsive to all screen sizes; 
 * Images from the carousel ware streched, changed the css property to "object-fit: contain;" problem solved.
 
